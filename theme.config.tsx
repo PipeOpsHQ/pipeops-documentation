@@ -4,7 +4,10 @@ import { useRouter } from 'next/router'
 
 
 const config: DocsThemeConfig = {
-
+  project: {
+    link: 'https://github.com/PipeOpsHQ/pipeops-documentation',
+  },
+  docsRepositoryBase: 'https://github.com/PipeOpsHQ/pipeops-documentation',
   logo: (
     <>
       <img src="https://res.cloudinary.com/djhh4kkml/image/upload/v1665733809/Pipeops/Pipeops_bcnyeo.png" alt="Logo" width="120" height="120" />
@@ -22,11 +25,11 @@ const config: DocsThemeConfig = {
     }
   },
   editLink: {
-    text: ''
+    text: 'Edit this page on GitHub →'
   },
   feedback: {
-    content: '',
-    labels: ''
+    content: 'Question? Give us feedback →',
+    labels: 'feedback'
   },
   footer: {
     text: (
