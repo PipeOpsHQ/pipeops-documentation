@@ -15,7 +15,6 @@ const config: DocsThemeConfig = {
   ),
 
 
-  
   useNextSeoProps() {
     const { route } = useRouter()
     if (route !== '/') {
@@ -24,13 +23,19 @@ const config: DocsThemeConfig = {
       }
     }
   },
+
+
   editLink: {
     text: ''
   },
+
+  
   feedback: {
     content: 'Question? Give us feedback →',
     labels: 'feedback'
   },
+
+
   footer: {
     text: (
       <div className="flex w-full flex-col items-center sm:items-start">

@@ -1,3 +1,6 @@
 {
-  "database": "Database Services"
+  "database": {
+    "title": "Database Services",
+    "description": ""
+  }
 }

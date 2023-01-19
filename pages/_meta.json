@@ -1,9 +1,24 @@
 {
-  "index": "Welcome 👋🏽",
-  "getting-started": "Get Started🎬",
-  "integrations": "Integrations 🛠️",
-  "servers": "Servers ☁️",
-  "addons": "Addons 📙",
+  "index":{
+    "title": "Welcome 👋🏽",
+    "description": "Learn how fast it is to get started with PipeOps! Easily deploy your apps to your AWS, GCP, and Azure in minutes."
+  },
+  "getting-started": {
+    "title": "Get Started",
+    "description": ""
+  },
+  "integrations": {
+    "title": "Integrations 🛠️",
+    "description": ""
+  },
+  "servers": {
+    "title": "Servers ☁️",
+    "description": ""
+  },
+  "addons": {
+    "title": "Addons 📙",
+    "description": ""
+  },
   "-- About --": {
     "type": "separator",
     "title": "Learn"

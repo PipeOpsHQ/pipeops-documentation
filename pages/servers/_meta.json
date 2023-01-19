@@ -1,3 +1,6 @@
 {
-  "aws": "AWS Server"
+  "aws": {
+    "title": "AWS Server",
+    "description": ""
+  }
 }
