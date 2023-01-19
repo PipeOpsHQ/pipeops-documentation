@@ -25,7 +25,7 @@ const config: DocsThemeConfig = {
     }
   },
   editLink: {
-    text: 'Edit this page on GitHub →'
+    text: ''
   },
   feedback: {
     content: 'Question? Give us feedback →',
