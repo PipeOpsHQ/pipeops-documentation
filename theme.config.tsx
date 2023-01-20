@@ -17,9 +17,12 @@ const config: DocsThemeConfig = {
 
   useNextSeoProps() {
     const { route } = useRouter()
+    const { frontMatter } = useConfig() 
     if (route !== '/') {
       return {
-        titleTemplate: '%s'
+        titleTemplate: '%s',
+        description: 
+           frontMatter.description || 'PipeOps: the No-code Tool for Cloud Deployments & Infrastructure Management'
       }
     }
   },

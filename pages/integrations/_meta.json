@@ -1,6 +1,3 @@
 {
-  "cloud": {
-    "title": "Cloud Provider",
-    "description": ""
-  }
+  "cloud": "Cloud Provider"
 }

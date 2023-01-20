@@ -1,22 +1,7 @@
 {
-  "setup": {
-    "title": "Quick Setup",
-    "description": ""
-  },
-  "deploy": {
-    "title": "Deploy",
-    "description": ""
-  },
-  "domain": {
-    "title": "Add Domain Name",
-    "description": ""
-  },
-  "env": {
-    "title": "Environment Variables",
-    "description": ""
-  },
-  "changes": {
-    "title": "Make Changes",
-    "description": ""
-  }
+  "setup": "Quick Setup",
+  "deploy": "Deploy",
+  "domain": "Add Domain Name",
+  "env": "Environment Variables",
+  "changes": "Make Changes"
 }
