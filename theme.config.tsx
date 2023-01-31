@@ -1,4 +1,3 @@
-import React from "react";
 import { DocsThemeConfig, useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 
@@ -36,14 +35,31 @@ const config: DocsThemeConfig = {
     const { frontMatter } = useConfig();
 
     return (
-      <React.Fragment>
+      <>
         <meta property="og:url" content={`https://docs.pipeops.io${asPath}`} />
         <meta property="og:title" content={`${frontMatter.title} — Pipeops`} />
         <meta
           property="og:description"
           content="PipeOps: the No-code Tool for Cloud Deployments & Infrastructure Management"
         />
-      </React.Fragment>
+        <meta itemProp="name" content="Pipeops Docs" />
+        <meta
+          itemProp="description"
+          content="PipeOps: the No-code Tool for Cloud Deployments & Infrastructure Management"
+        />
+        <meta itemProp="image" content="preview img will be here" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={frontMatter.title} />
+        <meta
+          name="twitter:description"
+          content="PipeOps: the No-code Tool for Cloud Deployments & Infrastructure Management"
+        />
+        <meta name="twitter:site" content="docs.pipeops.io" />
+        <meta
+          name="twitter:image"
+          content="twitter preview image will be here"
+        />
+      </>
     );
   },
 
