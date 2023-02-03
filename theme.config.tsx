@@ -1,5 +1,6 @@
 import { DocsThemeConfig, useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
+import Logo from "./components/logo";
 
 const config: DocsThemeConfig = {
   project: {
@@ -8,12 +9,7 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: "https://github.com/PipeOpsHQ/pipeops-documentation",
   logo: (
     <>
-      <img
-        src="https://res.cloudinary.com/djhh4kkml/image/upload/v1665733809/Pipeops/Pipeops_bcnyeo.png"
-        alt="Logo"
-        width="120"
-        height="120"
-      />
+      <Logo dark="/logo/pipeops-dark.svg" light="/logo/pipeops-light.svg" />
     </>
   ),
 
