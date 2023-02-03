@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: "https://github.com/PipeOpsHQ/pipeops-documentation",
   logo: (
     <>
-      <Logo />
+      <Logo dark="/logo/pipeops-dark.svg" light="/logo/pipeops-light.svg" />
     </>
   ),
 
