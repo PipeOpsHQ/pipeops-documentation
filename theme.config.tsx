@@ -45,7 +45,7 @@ const config: DocsThemeConfig = {
         />
         <meta itemProp="image" content="preview img will be here" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={frontMatter.title} />
+        <meta name="twitter:title" content={frontMatter.title} />      
         <meta
           name="twitter:description"
           content="PipeOps: the No-code Tool for Cloud Deployments & Infrastructure Management"
@@ -55,6 +55,8 @@ const config: DocsThemeConfig = {
           name="twitter:image"
           content="twitter preview image will be here"
         />
+        <link rel='icon' href='/favicon-16x16.png' type="image/png" />
+        <link rel='apple-touch-icon' href='/favicon-192x192.png' type="image/png" />
       </>
     );
   },
