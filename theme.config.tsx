@@ -38,6 +38,9 @@ const config: DocsThemeConfig = {
           property="og:description"
           content="PipeOps: the No-code Tool for Cloud Deployments & Infrastructure Management"
         />
+        <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/favicon-192x192.png" sizes="192x192" />
         <meta itemProp="name" content="Pipeops Docs" />
         <meta
           itemProp="description"
