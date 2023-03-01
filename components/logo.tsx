@@ -1,21 +1,27 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import Image from "next/image";
 import { useTheme } from "next-themes";
 
-interface logoProps {
-  dark: string;
-  light: string;
-}
+// interface logoProps {
+//   dark: string;
+//   light: string;
+// }
 
-const Logo: React.FC<logoProps> = ({ dark, light }) => {
-  const { theme, systemTheme } = useTheme();
+const Logo = () => {
+   const [mounted, setMounted] = useState(false)
+  const { theme } = useTheme()
+  const light = '/logo/pipeops-dark.svg'
+  const dark = '/logo/pipeops-light.svg'
+  const src = theme === 'dark' ? dark : light
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
-  console.log("current theme", theme, systemTheme);
-
-  if (theme === "dark") {
-    return <img src={light} width="120" height="120" alt="dark theme logo" />;
+  if (!mounted) {
+    return null
   }
 
-  return <img src={dark} width="120" height="120" alt="light logo" />;
+  return <Image src={src} width="120" height="120" alt="pipeops logo" />;
 };
 
 export default Logo;
