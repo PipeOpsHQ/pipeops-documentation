@@ -9,10 +9,19 @@ import { useTheme } from "next-themes";
 
 const Logo = () => {
    const [mounted, setMounted] = useState(false)
-  const { theme } = useTheme()
+  const { theme, systemTheme } = useTheme()
   const light = '/logo/pipeops-dark.svg'
   const dark = '/logo/pipeops-light.svg'
-  const src = theme === 'dark' ? dark : light
+  let src = ''
+
+  if (theme === 'dark' && systemTheme === 'light') {
+    src = dark
+  } else if (theme === 'light' && systemTheme === 'dark') {
+    src = light
+  } else {
+    src = systemTheme === 'dark' ? dark : light
+  }
+  
   useEffect(() => {
     setMounted(true)
   }, [])
