@@ -1,0 +1,48 @@
+## Django On PipeOps
+
+PipeOps is the ideal platform for deploying your Django applications due to its robust support. As you read on, you'll discover just how effortless it is to deploy your project.
+
+## Getting Started
+
+For a quick and hassle-free start, you can clone our pre-built Django template from [here](https://github.com/pipeops-dev/pipeops-django). This template comes with a Dockerfile that will be used during deployment. However, if you already have a project to deploy, you'll need to create a Dockerfile and copy the relevant information from our Django template Dockerfile into your project's Dockerfile.
+
+Here's an example Dockerfile based on our Django template:
+
+```
+# Set the base image to Python 3.9
+FROM python:3.11.0
+
+# Set environment variables
+ENV PYTHONUNBUFFERED 1
+ENV PYTHONDONTWRITEBYTECODE 1
+
+# Set the working directory to /app
+WORKDIR /app
+
+# Copy the requirements file into the container and install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the application code into the container
+COPY . .
+
+# Run database migrations
+RUN python manage.py migrate
+
+# Expose port 8000 for the Django application
+EXPOSE 8000
+
+# Start the Django development server
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+
+```
+## Deploy Your Project
+
+We assume that you've gone through our get started guide. If not, you can access it [here](https://docs.pipeops.io/getting-started). Once you've gone through the guide, you can proceed to connect your PipeOps account to your preferred git provider and select your project. In the image below, you'll find the necessary configurations for your Django project. After completing these configurations, you can click on the "Deploy Project" button to deploy your project.
+![Django Image](https://res.cloudinary.com/djhh4kkml/image/upload/v1678874959/Pipeops/django_u8mv1l.png)
+![Django success Image](https://res.cloudinary.com/djhh4kkml/image/upload/v1678875019/Pipeops/image_5_bhabno.png)
+
+
+> 👍 Awesome!
+> 
+> You have now deployed your Django project.

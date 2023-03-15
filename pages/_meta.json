@@ -4,6 +4,7 @@
   "integrations": "Integrations 🛠️",
   "servers": "Servers ☁️",
   "addons": "Addons 📙",
+  "frameworks": "Frameworks ⚓",
   "-- About --": {
     "type": "separator",
     "title": "Learn"
