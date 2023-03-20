@@ -1,3 +1,4 @@
 {
-  "django": "Django App"
+  "django": "Django App",
+  "flask": "Flask App"
 }
