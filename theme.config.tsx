@@ -48,7 +48,7 @@ const config: DocsThemeConfig = {
         />
         <meta itemProp="image" content="preview img will be here" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={frontMatter.title} />
+        <meta name="twitter:title" content={`${frontMatter.title} — Pipeops`} />
         <meta
           name="twitter:description"
           content="PipeOps: the No-code Tool for Cloud Deployments & Infrastructure Management"
@@ -56,7 +56,7 @@ const config: DocsThemeConfig = {
         <meta name="twitter:site" content="docs.pipeops.io" />
         <meta
           name="twitter:image"
-          content="twitter preview image will be here"
+          content="PipeOps: the No-code Tool for Cloud Deployments & Infrastructure Management"
         />
       </>
     );
