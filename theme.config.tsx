@@ -54,8 +54,7 @@ const config: DocsThemeConfig = {
     if (asPath !== '/') {
       return {
         titleTemplate: '%s – PipeOps',
-        description: frontMatter.description ||
-        "PipeOps: the No-code Tool for Cloud Deployments & Infrastructure Management",
+        description: 'PipeOps: the No-code Tool for Cloud Deployments & Infrastructure Management',
       }
     }
   },
