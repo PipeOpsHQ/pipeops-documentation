@@ -1,15 +1,15 @@
 {
-  "index": "Introduction",
+  "index": "Introduction 👋🏽",
   "guide": "",
-  "-- Command Line": {
+  "-- INFRASTRUCTURE": {
     "type": "separator",
     "title": "Command Line"
   },
-  "-- Integrations": {
+  "-- WORKFLOW & COLLABORATION": {
     "type": "separator",
     "title": "Integrations"
   },
-  "-- Themes": {
+  "-- WORKFLOW & COLLABORATIONss": {
     "type": "separator",
     "title": "Themes"
   },
