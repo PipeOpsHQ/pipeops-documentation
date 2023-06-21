@@ -4,11 +4,19 @@
     "type": "separator",
     "title": "GETTING STARTED"
   },
-  "guide": "",
+  "guide": "Guide",
+  "frameworks": "Frameworks",
+  "support": "Deployment Support",
   "-- INFRASTRUCTURE": {
     "type": "separator",
     "title": "INFRASTRUCTURE"
   },
+  "servers": "",
+  "-- DATABASE": {
+    "type": "separator",
+    "title": "DATABASES"
+  },
+  "addons": "Addons",
   "-- COLLABORATION": {
     "type": "separator",
     "title": "COLLABORATION"
