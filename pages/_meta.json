@@ -1,42 +1,37 @@
 {
-  "index": "Introduction 👋🏽",
+  "index": "🏠Overview",
+  "-- GETTING STARTED": {
+    "type": "separator",
+    "title": "GETTING STARTED"
+  },
   "guide": "",
   "-- INFRASTRUCTURE": {
     "type": "separator",
-    "title": "Command Line"
+    "title": "INFRASTRUCTURE"
   },
-  "-- WORKFLOW & COLLABORATION": {
+  "-- COLLABORATION": {
     "type": "separator",
-    "title": "Integrations"
-  },
-  "-- WORKFLOW & COLLABORATIONss": {
-    "type": "separator",
-    "title": "Themes"
+    "title": "COLLABORATION"
   },
   "docs-theme": "",
   "blog-theme": "",
   "custom-theme": "",
-  "-- More": {
+  "-- MORE": {
     "type": "separator",
-    "title": "More"
+    "title": "MORE"
   },
   "blog-link": {
     "title": "Blog ↗",
-    "href": "#",
+    "href": "https://blog.pipeops.io/",
     "newWindow": true
   },
   "twitter-link": {
     "title": "Twitter ↗",
-    "href": "#"
+    "href": "https://twitter.com/pipeopshq"
   },
   "linkedin-link": {
     "title": "Linkedin ↗",
-    "href": "#"
-  },
-  "changelog-link": {
-    "title": "Changelog ↗",
-    "href": "#",
-    "newWindow": true
+    "href": "https://www.linkedin.com/company/pipeops/"
   },
   "community-link": {
     "title": "Community ↗",

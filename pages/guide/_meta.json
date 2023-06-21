@@ -1,12 +1,7 @@
 {
-  "organize-files": "",
-  "markdown": "",
-  "syntax-highlighting": "",
-  "ssg": "Next.js SSG",
-  "i18n": "Next.js I18n",
-  "image": "Next.js Image",
-  "link": "Next.js Link",
-  "latex": "LaTeX",
-  "typescript": "",
-  "advanced": ""
+  "setup": "Quick Setup",
+  "deploy": "Deploy",
+  "env": "Environment Variables",
+  "domain": "Add Domain Name",
+  "changes": "Make Changes"
 }
