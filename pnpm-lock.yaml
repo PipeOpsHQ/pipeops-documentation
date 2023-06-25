@@ -37,6 +37,13 @@ devDependencies:
   typescript: 5.0.4
 
 packages:
+  /@alloc/quick-lru/5.2.0:
+    resolution:
+      {
+        integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==,
+      }
+    engines: { node: ">=10" }
+    dev: true
 
   /@alloc/quick-lru/5.2.0:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
@@ -193,7 +200,7 @@ packages:
   /@mdx-js/react/2.3.0_react@18.2.0:
     resolution: {integrity: sha512-zQH//gdOmuu7nt2oJR29vFhDv88oGPmVw6BggmrHeMI+xgEkp1B2dX9/bMBSYtK0dyLX/aOmesKS09g222K1/g==}
     peerDependencies:
-      react: '>=16'
+      react: ">=16"
     dependencies:
       '@types/mdx': 2.0.5
       '@types/react': 18.2.0
@@ -303,17 +310,17 @@ packages:
     resolution: {integrity: sha512-BvOMdkkofTz6lEE35itJ/laUokPhr/5ToMGlOH25YnhLD2yN1KpRAT4blW9tT8281/1aZjW3xyi73bs//IrDKA==}
     engines: {node: '>= 10'}
     optionalDependencies:
-      '@napi-rs/simple-git-android-arm-eabi': 0.1.8
-      '@napi-rs/simple-git-android-arm64': 0.1.8
-      '@napi-rs/simple-git-darwin-arm64': 0.1.8
-      '@napi-rs/simple-git-darwin-x64': 0.1.8
-      '@napi-rs/simple-git-linux-arm-gnueabihf': 0.1.8
-      '@napi-rs/simple-git-linux-arm64-gnu': 0.1.8
-      '@napi-rs/simple-git-linux-arm64-musl': 0.1.8
-      '@napi-rs/simple-git-linux-x64-gnu': 0.1.8
-      '@napi-rs/simple-git-linux-x64-musl': 0.1.8
-      '@napi-rs/simple-git-win32-arm64-msvc': 0.1.8
-      '@napi-rs/simple-git-win32-x64-msvc': 0.1.8
+      "@napi-rs/simple-git-android-arm-eabi": 0.1.8
+      "@napi-rs/simple-git-android-arm64": 0.1.8
+      "@napi-rs/simple-git-darwin-arm64": 0.1.8
+      "@napi-rs/simple-git-darwin-x64": 0.1.8
+      "@napi-rs/simple-git-linux-arm-gnueabihf": 0.1.8
+      "@napi-rs/simple-git-linux-arm64-gnu": 0.1.8
+      "@napi-rs/simple-git-linux-arm64-musl": 0.1.8
+      "@napi-rs/simple-git-linux-x64-gnu": 0.1.8
+      "@napi-rs/simple-git-linux-x64-musl": 0.1.8
+      "@napi-rs/simple-git-win32-arm64-msvc": 0.1.8
+      "@napi-rs/simple-git-win32-x64-msvc": 0.1.8
     dev: false
 
   /@next/env/13.3.2:
@@ -455,7 +462,7 @@ packages:
   /@types/debug/4.1.7:
     resolution: {integrity: sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg==}
     dependencies:
-      '@types/ms': 0.7.31
+      "@types/ms": 0.7.31
     dev: false
 
   /@types/estree-jsx/1.0.0:
@@ -471,7 +478,7 @@ packages:
   /@types/hast/2.3.4:
     resolution: {integrity: sha512-wLEm0QvaoawEDoTRwzTXp4b4jpwiJDvR5KMnFnVodm3scufTlBOWRD6N1OBf9TZMhjlNsSfcO5V+7AF4+Vy+9g==}
     dependencies:
-      '@types/unist': 2.0.6
+      "@types/unist": 2.0.6
     dev: false
 
   /@types/js-yaml/4.0.5:
@@ -489,7 +496,7 @@ packages:
   /@types/mdast/3.0.11:
     resolution: {integrity: sha512-Y/uImid8aAwrEA24/1tcRZwpxX3pIFTSilcNDKSPn+Y2iDywSEachzRuvgAYYLR3wpGXAsMbv5lvKLDZLeYPAw==}
     dependencies:
-      '@types/unist': 2.0.6
+      "@types/unist": 2.0.6
     dev: false
 
   /@types/mdx/2.0.5:
@@ -857,7 +864,7 @@ packages:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
     peerDependencies:
-      supports-color: '*'
+      supports-color: "*"
     peerDependenciesMeta:
       supports-color:
         optional: true
@@ -1064,8 +1071,8 @@ packages:
   /estree-util-visit/1.2.1:
     resolution: {integrity: sha512-xbgqcrkIVbIG+lI/gzbvd9SGTJL4zqJKBFttUl5pP27KhAjtMKbX/mQXJ7qgyXpMgVy/zvpm0xoQQaGL8OloOw==}
     dependencies:
-      '@types/estree-jsx': 1.0.0
-      '@types/unist': 2.0.6
+      "@types/estree-jsx": 1.0.0
+      "@types/unist": 2.0.6
     dev: false
 
   /estree-walker/3.0.3:
@@ -2212,7 +2219,7 @@ packages:
   /micromark/3.1.0:
     resolution: {integrity: sha512-6Mj0yHLdUZjHnOPgr5xfWIMqMWS12zDN6iws9SLuSz76W8jTtAv24MN4/CL7gJrl5vtxGInkkqDv/JIoRsQOvA==}
     dependencies:
-      '@types/debug': 4.1.7
+      "@types/debug": 4.1.7
       debug: 4.3.4
       decode-named-character-reference: 1.0.2
       micromark-core-commonmark: 1.0.6
@@ -2293,8 +2300,8 @@ packages:
     resolution: {integrity: sha512-jKKt1p1z4otMA28AyeoAONixVjdYmgFCWwpEFtu+DwRHQDllVX3RjtyXbuCQiUZEfQ9rFPBpAI90vDeLZlMBdg==}
     peerDependencies:
       next: ^8.1.1-canary.54 || >=9.0.0
-      react: '>=16.0.0'
-      react-dom: '>=16.0.0'
+      react: ">=16.0.0"
+      react-dom: ">=16.0.0"
     dependencies:
       next: 13.3.2_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
@@ -2304,9 +2311,9 @@ packages:
   /next-themes/0.2.1_gcoziurebgu6zyuvqklu6y76di:
     resolution: {integrity: sha512-B+AKNfYNIzh0vqQQKqQItTS8evEouKD7H5Hj3kmuPERwddR2TxvDSFZuTj6T7Jfn1oyeUyJMydPl1Bkxkh0W7A==}
     peerDependencies:
-      next: '*'
-      react: '*'
-      react-dom: '*'
+      next: "*"
+      react: "*"
+      react-dom: "*"
     dependencies:
       next: 13.3.2_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
@@ -2353,7 +2360,7 @@ packages:
       '@next/swc-win32-ia32-msvc': 13.3.2
       '@next/swc-win32-x64-msvc': 13.3.2
     transitivePeerDependencies:
-      - '@babel/core'
+      - "@babel/core"
       - babel-plugin-macros
     dev: false
 
@@ -2387,9 +2394,9 @@ packages:
     resolution: {integrity: sha512-FH2BTCF8q3aBtc1w1pj1N6LMFyiMP5KL+w6Ph4s2M5FwTtv150dSNWWw5Hy2GgxLTi391B/CRkO31OCjp9trkA==}
     engines: {node: '>=16'}
     peerDependencies:
-      next: '>=9.5.3'
-      react: '>=16.13.1'
-      react-dom: '>=16.13.1'
+      next: ">=9.5.3"
+      react: ">=16.13.1"
+      react-dom: ">=16.13.1"
     dependencies:
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/react': 2.3.0_react@18.2.0
@@ -2507,7 +2514,52 @@ packages:
   /parse-entities/4.0.1:
     resolution: {integrity: sha512-SWzvYcSJh4d/SGLIOQfZ/CoNv6BTlI6YEQ7Nj82oDVnRpwe/Z/F1EMx42x3JAOwGBlCjeCH0BRJQbQ/opHL17w==}
     dependencies:
-      '@types/unist': 2.0.6
+      yocto-queue: 0.1.0
+
+  /p-locate/5.0.0:
+    resolution:
+      {
+        integrity: sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==,
+      }
+    engines: { node: ">=10" }
+    dependencies:
+      p-limit: 3.1.0
+    dev: true
+
+  /pako/0.2.9:
+    resolution:
+      {
+        integrity: sha512-NUcwaKxUxWrZLpDG+z/xZaCgQITkA/Dv4V/T6bw7VON6l1Xz/VnrBqrYjZQ12TamKHzITTfOEIYUj48y2KXImA==,
+      }
+    dev: false
+
+  /parent-module/1.0.1:
+    resolution:
+      {
+        integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==,
+      }
+    engines: { node: ">=6" }
+    dependencies:
+      callsites: 3.1.0
+    dev: true
+
+  /parse-css-color/0.2.1:
+    resolution:
+      {
+        integrity: sha512-bwS/GGIFV3b6KS4uwpzCFj4w297Yl3uqnSgIPsoQkx7GMLROXfMnWvxfNkL0oh8HVhZA4hvJoEoEIqonfJ3BWg==,
+      }
+    dependencies:
+      color-name: 1.1.4
+      hex-rgb: 4.3.0
+    dev: false
+
+  /parse-entities/4.0.1:
+    resolution:
+      {
+        integrity: sha512-SWzvYcSJh4d/SGLIOQfZ/CoNv6BTlI6YEQ7Nj82oDVnRpwe/Z/F1EMx42x3JAOwGBlCjeCH0BRJQbQ/opHL17w==,
+      }
+    dependencies:
+      "@types/unist": 2.0.6
       character-entities: 2.0.2
       character-entities-legacy: 3.0.0
       character-reference-invalid: 2.0.1
@@ -2746,7 +2798,7 @@ packages:
     resolution: {integrity: sha512-3m4aQT15n8C+UizcZL0enaahoZwCDm5K1qKQ3DGgHE7U8l/DEEEJ/hm+uDe9yyK4sxVOSfZcRIMHrpJwLQi+Rg==}
     engines: {node: ^12.16.0 || >=13.2.0}
     peerDependencies:
-      shiki: '*'
+      shiki: "*"
     dependencies:
       hash-obj: 4.0.0
       parse-numeric-range: 1.3.0
@@ -3002,11 +3054,11 @@ packages:
     resolution: {integrity: sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
-      '@babel/core': '*'
-      babel-plugin-macros: '*'
-      react: '>= 16.8.0 || 17.x.x || ^18.0.0-0'
+      "@babel/core": "*"
+      babel-plugin-macros: "*"
+      react: ">= 16.8.0 || 17.x.x || ^18.0.0-0"
     peerDependenciesMeta:
-      '@babel/core':
+      "@babel/core":
         optional: true
       babel-plugin-macros:
         optional: true
@@ -3172,7 +3224,7 @@ packages:
   /unified/10.1.2:
     resolution: {integrity: sha512-pUSWAi/RAnVy1Pif2kAoeWNBa3JVrx0MId2LASj8G+7AiHWoKZNTomq6LG326T68U7/e263X6fTdcXIy7XnF7Q==}
     dependencies:
-      '@types/unist': 2.0.6
+      "@types/unist": 2.0.6
       bail: 2.0.2
       extend: 3.0.2
       is-buffer: 2.0.5
@@ -3201,13 +3253,13 @@ packages:
   /unist-util-position-from-estree/1.1.2:
     resolution: {integrity: sha512-poZa0eXpS+/XpoQwGwl79UUdea4ol2ZuCYguVaJS4qzIOMDzbqz8a3erUCOmubSZkaOuGamb3tX790iwOIROww==}
     dependencies:
-      '@types/unist': 2.0.6
+      "@types/unist": 2.0.6
     dev: false
 
   /unist-util-position/4.0.4:
     resolution: {integrity: sha512-kUBE91efOWfIVBo8xzh/uZQ7p9ffYRtUbMRZBNFYwf0RK8koUMx6dGUfwylLOKmaT2cs4wSW96QoYUSXAyEtpg==}
     dependencies:
-      '@types/unist': 2.0.6
+      "@types/unist": 2.0.6
     dev: false
 
   /unist-util-remove-position/4.0.2:
@@ -3318,7 +3370,17 @@ packages:
   /vfile/5.3.7:
     resolution: {integrity: sha512-r7qlzkgErKjobAmyNIkkSpizsFPYiUPuJb5pNW1RB4JcYVZhs4lIbVqk8XPk033CV/1z8ss5pkax8SuhGpcG8g==}
     dependencies:
-      '@types/unist': 2.0.6
+      "@types/unist": 2.0.6
+      unist-util-stringify-position: 3.0.3
+    dev: false
+
+  /vfile/5.3.7:
+    resolution:
+      {
+        integrity: sha512-r7qlzkgErKjobAmyNIkkSpizsFPYiUPuJb5pNW1RB4JcYVZhs4lIbVqk8XPk033CV/1z8ss5pkax8SuhGpcG8g==,
+      }
+    dependencies:
+      "@types/unist": 2.0.6
       is-buffer: 2.0.5
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
