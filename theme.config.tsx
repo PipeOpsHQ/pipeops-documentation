@@ -55,11 +55,11 @@ const config: DocsThemeConfig = {
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={socialCard} />
-        <meta name="twitter:site:domain" content="https://docs.pipeops.com" />
-        <meta name="twitter:url" content="https://docs.pipeops.com" />
+        <meta name="twitter:site:domain" content="pipeops.io" />
+        <meta name="twitter:url" content="https://pipeops.io" />
         <meta
           name="og:title"
-          content={title ? title + " – PipeOps" : "PipeOps"}
+          content={title ? title + ' – PipeOps' : 'PipeOps'}
         />
         <meta name="og:image" content={socialCard} />
         <meta name="apple-mobile-web-app-title" content="PipeOps" />
@@ -80,14 +80,14 @@ const config: DocsThemeConfig = {
       </>
     );
   },
-  // banner: {
-  //   key: '2.0-release',
-  //   text: (
-  //     <a href="https://nextra.site" target="_blank" rel="noreferrer">
-  //       🎉 Nextra 2.0 is released. Read more →
-  //     </a>
-  //   )
-  // },
+   banner: {
+     key: '2.0-release',
+     text: (
+       <a href="https://pipeops.io" target="_blank" rel="noreferrer">
+         🎉 PipeOps product update is released. Read more →
+       </a>
+     )
+   },
   editLink: {
     text: "Edit this page on GitHub →",
   },
