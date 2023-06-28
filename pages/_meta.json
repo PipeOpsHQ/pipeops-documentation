@@ -11,7 +11,7 @@
     "type": "separator",
     "title": "INFRASTRUCTURE"
   },
-  "servers": "",
+  "clusters": "Clusters",
   "-- DATABASE": {
     "type": "separator",
     "title": "DATABASES"
@@ -21,7 +21,8 @@
     "type": "separator",
     "title": "OBSERVABILITY"
   },
-  "observability": "",
+  "project-level": "Project",
+  "cluster-level": "Cluster",
   "-- COLLABORATION": {
     "type": "separator",
     "title": "COLLABORATION"
