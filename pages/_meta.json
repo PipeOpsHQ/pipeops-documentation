@@ -27,9 +27,8 @@
     "type": "separator",
     "title": "COLLABORATION"
   },
-  "docs-theme": "",
-  "blog-theme": "",
-  "custom-theme": "",
+  "teams": "Teams",
+  "teammates": "Teammates",
   "-- MORE": {
     "type": "separator",
     "title": "MORE"
