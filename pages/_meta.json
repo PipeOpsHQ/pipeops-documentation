@@ -11,7 +11,7 @@
     "type": "separator",
     "title": "ENVIRONMENTS"
   },
-  "secrets": "Secrets",
+  "environments": "Environments & Secrets",
   "-- INFRASTRUCTURE": {
     "type": "separator",
     "title": "INFRASTRUCTURE"
@@ -33,7 +33,7 @@
     "title": "COLLABORATION"
   },
   "teams": "Teams",
-  "teammates": "Teammates",
+  "members": "Members",
   "-- MORE": {
     "type": "separator",
     "title": "MORE"
