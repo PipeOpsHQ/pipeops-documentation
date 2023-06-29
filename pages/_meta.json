@@ -32,8 +32,7 @@
     "type": "separator",
     "title": "COLLABORATION"
   },
-  "teams": "Teams",
-  "members": "Members",
+  "teams": "Teams & Members",
   "-- MORE": {
     "type": "separator",
     "title": "MORE"
@@ -53,6 +52,6 @@
   },
   "community-link": {
     "title": "Community ↗",
-    "href": "#"
+    "href": "https://discord.com/invite/PQscGtfFD2"
   }
 }
