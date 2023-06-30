@@ -45,14 +45,17 @@
   },
   "twitter-link": {
     "title": "Twitter ↗",
-    "href": "https://twitter.com/pipeopshq"
+    "href": "https://twitter.com/pipeopshq",
+    "newWindow": true
   },
   "linkedin-link": {
     "title": "Linkedin ↗",
-    "href": "https://www.linkedin.com/company/pipeops/"
+    "href": "https://www.linkedin.com/company/pipeops/",
+    "newWindow": true
   },
   "community-link": {
     "title": "Community ↗",
-    "href": "https://discord.com/invite/PQscGtfFD2"
+    "href": "https://discord.com/invite/PQscGtfFD2",
+    "newWindow": true
   }
 }
