@@ -7,27 +7,15 @@
   "guide": "Guide",
   "frameworks": "Frameworks",
   "support": "Deployment Support",
-  "-- ENVIRONMENTS": {
-    "type": "separator",
-    "title": "ENVIRONMENTS"
-  },
+  "aws": "AWS Cluster",
   "environments": "Environments & Secrets",
-  "-- INFRASTRUCTURE": {
+  "project-observability": "Project Observability",
+  "cluster-observability": "Cluster Observability",
+  "-- ADDONS": {
     "type": "separator",
-    "title": "INFRASTRUCTURE"
+    "title": "ADDONS"
   },
-  "clusters": "Clusters",
-  "-- DATABASE": {
-    "type": "separator",
-    "title": "DATABASES"
-  },
-  "addons": "Addons",
-  "-- OBSERVABILITY": {
-    "type": "separator",
-    "title": "OBSERVABILITY"
-  },
-  "project-level": "Project",
-  "cluster-level": "Cluster",
+  "database": "Database",
   "-- COLLABORATION": {
     "type": "separator",
     "title": "COLLABORATION"
