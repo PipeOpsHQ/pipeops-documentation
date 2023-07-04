@@ -4,13 +4,10 @@
     "type": "separator",
     "title": "GETTING STARTED"
   },
-  "guide": "Guide",
+  "developers": "Developer Guide",
+  "startups": "Startup Guide",
   "frameworks": "Frameworks",
   "support": "Deployment Support",
-  "aws": "AWS Cluster",
-  "environments": "Environments & Secrets",
-  "project-observability": "Project Observability",
-  "cluster-observability": "Cluster Observability",
   "-- ADDONS": {
     "type": "separator",
     "title": "ADDONS"

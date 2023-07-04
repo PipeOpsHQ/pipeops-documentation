@@ -1,0 +1,10 @@
+{
+  "setup": "Quick Setup",
+  "deploy": "Deploy",
+  "env": "Environment Variables",
+  "domain": "Add Domain Name",
+  "changes": "Make Changes",
+  "aws": "AWS Cluster",
+  "environments": "Environments & Secrets",
+  "cluster-observability": "Cluster Observability"
+}
