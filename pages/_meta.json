@@ -4,10 +4,8 @@
     "type": "separator",
     "title": "GETTING STARTED"
   },
-  "developers": "Developer Guide",
-  "startups": "Startup Guide",
-  "frameworks": "Frameworks",
-  "support": "Deployment Support",
+  "developers": "PipeOps Developers",
+  "startups": "PipeOps Startups",
   "-- ADDONS": {
     "type": "separator",
     "title": "ADDONS"
@@ -19,6 +17,13 @@
   },
   "workspace": "Workspace",
   "teams": "Teams & Members",
+  "-- GUIDES": {
+    "type": "separator",
+    "title": "GUIDES"
+  },
+  "django": "Django",
+  "flask": "Flask",
+  "support": "Deployment Support",
   "-- MORE": {
     "type": "separator",
     "title": "MORE"
