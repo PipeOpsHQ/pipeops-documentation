@@ -80,14 +80,14 @@ const config: DocsThemeConfig = {
       </>
     );
   },
-   banner: {
-     key: '2.0-release',
-     text: (
-       <a href="https://pipeops.io" target="_blank" rel="noreferrer">
-         🎉 PipeOps product update is released. Read more →
-       </a>
-     )
-   },
+//   banner: {
+//     key: '2.0-release',
+//     text: (
+//       <a href="https://pipeops.io" target="_blank" rel="noreferrer">
+//         🎉 PipeOps product update is released. Read more →
+//       </a>
+//     )
+//   },
   editLink: {
     text: "Edit this page on GitHub →",
   },
