@@ -1,24 +1,33 @@
 {
   "name": "pipeops-documentation",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Official documentation for PipeOps a No-code Tool for Cloud Deployments & Infrastructure Management.",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
   },
+  "author": "Daniel Adeboye",
+  "license": "MIT",
   "dependencies": {
+    "@vercel/og": "^0.5.0",
     "clsx": "^1.2.1",
-    "next": "^13.0.6",
+    "framer-motion": "^10.0.0",
+    "next": "^13.1.1",
     "next-themes": "^0.2.1",
-    "nextra": "2.0.1",
-    "nextra-logo": "^0.0.1",
-    "nextra-theme-docs": "2.0.1",
+    "nextra": "^2.4.2",
+    "nextra-theme-docs": "^2.4.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sharp": "^0.32.1"
   },
   "devDependencies": {
-    "@types/node": "18.11.10",
-    "typescript": "^4.9.3"
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.30.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^5.0.0"
   }
 }

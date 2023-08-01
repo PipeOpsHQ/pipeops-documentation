@@ -1,34 +1,51 @@
 {
-  "index": "Welcome 👋🏽",
-  "getting-started": "Get Started",
-  "integrations": "Integrations 🛠️",
-  "servers": "Servers ☁️",
-  "addons": "Addons 📙",
-  "frameworks": "Frameworks ⚓",
-  "-- About --": {
+  "index": "🏠Overview",
+  "-- GETTING STARTED": {
     "type": "separator",
-    "title": "Learn"
+    "title": "GETTING STARTED"
   },
-  "Twitter link": {
+  "developers": "Developers",
+  "startups": "Startups",
+  "-- ADDONS": {
+    "type": "separator",
+    "title": "ADDONS"
+  },
+  "database": "Database",
+  "-- COLLABORATION": {
+    "type": "separator",
+    "title": "COLLABORATION"
+  },
+  "workspace": "Workspace",
+  "teams": "Teams & Members",
+  "-- GUIDES": {
+    "type": "separator",
+    "title": "GUIDES"
+  },
+  "django": "Django",
+  "flask": "Flask",
+  "support": "Deployment Support",
+  "-- MORE": {
+    "type": "separator",
+    "title": "MORE"
+  },
+  "blog-link": {
+    "title": "Blog ↗",
+    "href": "https://blog.pipeops.io/",
+    "newWindow": true
+  },
+  "twitter-link": {
     "title": "Twitter ↗",
     "href": "https://twitter.com/pipeopshq",
     "newWindow": true
   },
-  "Linkedin link": {
+  "linkedin-link": {
     "title": "Linkedin ↗",
     "href": "https://www.linkedin.com/company/pipeops/",
     "newWindow": true
   },
-  "Discord link": {
-    "title": "Discord ↗",
-    "href": "https://discord.gg/xDFGwDZp",
-    "newWindow": true
-  },
-  "Blog link": {
-    "title": "Blog ↗",
-    "href": "https://blog.pipeops.io/",
+  "community-link": {
+    "title": "Community ↗",
+    "href": "https://discord.com/invite/PQscGtfFD2",
     "newWindow": true
   }
 }
-	
-
