@@ -23,6 +23,7 @@
   },
   "django": "Django",
   "flask": "Flask",
+  "nodejs": "Node.js",
   "support": "Deployment Support",
   "-- MORE": {
     "type": "separator",

@@ -1,0 +1,42 @@
+## Node.js On PipeOps
+
+PipeOps is the ideal platform for deploying your Node.js applications due to its robust support. As you read on, you'll discover just how effortless it is to deploy your project.
+
+## Getting Started
+
+For a quick and hassle-free start, you can clone our pre-built Node.js template from [here](https://github.com/pipeops-dev/pipeops-nodejs). This template comes with a Dockerfile that will be used during deployment. However, if you already have a project to deploy, you'll need to create a Dockerfile and copy the relevant information from our Node.js template Dockerfile into your project's Dockerfile.
+
+Here's an example Dockerfile based on our Node.js template:
+
+```
+FROM node:18
+
+# Create app directory
+WORKDIR /usr/src/app
+
+# Install app dependencies
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+# where available (npm@5+)
+COPY package*.json ./
+
+RUN npm install
+# If you are building your code for production
+# RUN npm ci --omit=dev
+
+# Bundle app source
+COPY . .
+
+EXPOSE 8080
+CMD [ "node", "server.js" ]
+
+```
+## Deploy Your Project
+
+We assume that you've gone through our get started guide. If not, you can access it [here](https://docs.pipeops.io/getting-started). Once you've gone through the guide, you can proceed to connect your PipeOps account to your preferred git provider and select your project. In the image below, you'll find the necessary configurations for your Node.js project. After completing these configurations, you can click on the "Deploy Project" button to deploy your project.
+![Node.js image](/assets/nodejs.png)
+![Node.js success Image](https://res.cloudinary.com/djhh4kkml/image/upload/v1678875019/Pipeops/image_5_bhabno.png)
+
+
+> 👍 Awesome!
+> 
+> You have now deployed your Node.js project.
