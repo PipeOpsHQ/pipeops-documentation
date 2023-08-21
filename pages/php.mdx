@@ -1,0 +1,49 @@
+## PHP On PipeOps
+
+PipeOps is the ideal platform for deploying your PHP applications due to its robust support. As you read on, you'll discover just how effortless it is to deploy your project.
+
+## Getting Started
+
+For a quick and hassle-free start, you can clone our pre-built PHP template from [here](https://github.com/pipeops-dev/pipeops-php). This template comes with a Dockerfile that will be used during deployment. However, if you already have a project to deploy, you'll need to create a Dockerfile and copy the relevant information from our PHP template Dockerfile into your project's Dockerfile.
+
+Here's an example Dockerfile based on our PHP template:
+
+```
+# Use an official PHP runtime as the base image
+FROM php:7.4-apache
+
+# Set the working directory in the container
+WORKDIR /var/www/html
+
+# Copy the application code to the container
+COPY . /var/www/html
+
+# Install any necessary PHP extensions or dependencies
+RUN apt-get update && \
+    apt-get install -y \
+        # Add any additional dependencies here
+    && rm -rf /var/lib/apt/lists/* \
+    && docker-php-ext-install mysqli pdo pdo_mysql \
+    && a2enmod rewrite
+
+# Expose port 80 for the Apache web server
+EXPOSE 80
+
+# Define environment variables if needed
+# ENV MY_ENV_VAR=value
+
+# Start the Apache web server
+CMD ["apache2-foreground"]
+
+
+```
+## Deploy Your Project
+
+We assume that you've gone through our get started guide. If not, you can access it [here](https://docs.pipeops.io/getting-started). Once you've gone through the guide, you can proceed to connect your PipeOps account to your preferred git provider and select your project. In the image below, you'll find the necessary configurations for your PHP project. After completing these configurations, you can click on the "Deploy Project" button to deploy your project.
+![PHP image](/assets/nodejs.png)
+![PHP success Image](https://res.cloudinary.com/djhh4kkml/image/upload/v1678875019/Pipeops/image_5_bhabno.png)
+
+
+> 👍 Awesome!
+> 
+> You have now deployed your PHP project.
