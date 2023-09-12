@@ -26,10 +26,10 @@ const config: DocsThemeConfig = {
   head: function useHead() {
     const { title } = useConfig();
     const { route } = useRouter();
-    const socialCard =
-      route === "/" || !title
-        ? "https://docs.pipeops.io/og.jpeg"
-        : `https://docs.pipeops.io/api/og?title=${title}`;
+//    const socialCard =
+//      route === "/" || !title
+//        ? "https://docs.pipeops.io/og.jpeg"
+//        : `https://docs.pipeops.io/api/og?title=${title}`;
 
     return (
       <>
@@ -54,14 +54,14 @@ const config: DocsThemeConfig = {
           content="PipeOps: the No-code Tool for Cloud Deployments & Infrastructure Management"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content={socialCard} />
+        <meta name="twitter:image" content="" />
         <meta name="twitter:site:domain" content="pipeops.io" />
         <meta name="twitter:url" content="https://pipeops.io" />
         <meta
           name="og:title"
           content={title ? title + ' – PipeOps' : 'PipeOps'}
         />
-        <meta name="og:image" content={socialCard} />
+        <meta name="og:image" content="" />
         <meta name="apple-mobile-web-app-title" content="PipeOps" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.png" type="image/png" />
