@@ -6,6 +6,11 @@
   },
   "developers": "Developers",
   "startups": "Startups",
+  "-- TROUBLESHOOTING": {
+    "type": "separator",
+    "title": "TROUBLESHOOTING"
+  },
+  "project": "Deployed project",
   "-- ADDONS": {
     "type": "separator",
     "title": "ADDONS"
