@@ -1,4 +1,5 @@
 {
-    "bad-gateway": "502 Bad Gateway"
+    "bad-gateway": "502 Bad Gateway",
+    "no-buildpack": "No Buildpack Detected"
 }
   
