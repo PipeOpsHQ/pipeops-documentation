@@ -10,7 +10,8 @@
     "type": "separator",
     "title": "TROUBLESHOOTING"
   },
-  "project": "Deployed project",
+  "project": "Project",
+  "cluster": "Cluster",
   "-- ADDONS": {
     "type": "separator",
     "title": "ADDONS"
